@@ -28,10 +28,13 @@ public class frmMenu extends javax.swing.JFrame {
     private void initComponents() {
 
         btnYacob = new javax.swing.JButton();
+        jButton1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         btnYacob.setText("yacob");
+
+        jButton1.setText("jButton1");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -41,11 +44,17 @@ public class frmMenu extends javax.swing.JFrame {
                 .addGap(163, 163, 163)
                 .addComponent(btnYacob, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(164, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(51, 51, 51))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(128, 128, 128)
+                .addGap(48, 48, 48)
+                .addComponent(jButton1)
+                .addGap(57, 57, 57)
                 .addComponent(btnYacob)
                 .addContainerGap(149, Short.MAX_VALUE))
         );
@@ -90,5 +99,6 @@ public class frmMenu extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnYacob;
+    private javax.swing.JButton jButton1;
     // End of variables declaration//GEN-END:variables
 }
